@@ -1,0 +1,187 @@
+@import url("https://fonts.googleapis.com/css2?family=Sedan:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Jersey+10&family=Sedan:ital@0;1&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Sedan, sans-serif;
+}
+
+body {
+  background-color: bisque;
+  height: 100%;
+  place-items: center;
+}
+
+.top-nav {
+  position: fixed;
+  height: 100px;
+  width: 100%;
+  background-color: rgb(13, 163, 163);
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  box-shadow: 10px 5px 5px rgb(127, 63, 247);
+}
+
+.nav-link {
+  font-weight: 50;
+  font-size: 2.3rem;
+  text-decoration: none;
+  color: rgb(62, 62, 206);
+  border-bottom: 2px solid rgb(44, 240, 181);
+  border-radius: 20px;
+  transition: 0.5s ease-out;
+  font-family: Jersey;
+}
+.nav-link:hover {
+  color: blueviolet;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+h1 {
+  padding-top: 120px;
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(30, 97, 74);
+  font-family: Jersey;
+}
+
+h2 {
+  padding-top: 10px;
+  padding-bottom: 20px;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(30, 97, 74);
+  font-family: Jersey;
+}
+
+.top_images {
+  display: grid;
+  grid-template-rows: 270px 270px 270px;
+  grid-template-columns: 400px 400px 400px;
+  grid-row-gap: 50px;
+  grid-column-gap: 290px;
+  place-items: center;
+  padding: 0;
+}
+.image:hover {
+  transform: scale(1.2);
+  transition: 0.9s ease-in-out;
+}
+
+.image {
+  border: 1px solid rgb(5, 141, 130);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(38, 201, 201);
+}
+
+img {
+  border: 1px solid rgb(5, 141, 130);
+  border-radius: 20px;
+  box-shadow: 5px 5px 5px rgb(38, 201, 201);
+}
+
+section {
+  margin: 20px;
+  padding: 10px;
+}
+
+h3 {
+  margin-bottom: 15px;
+  text-align: center;
+  font-size: 2.5rem;
+  color: rgb(47, 47, 252);
+  font-weight: 100;
+  text-shadow: 2px 2px #028091;
+}
+
+#friends-heading {
+  color: brown;
+  text-align: left;
+  font-size: 1.7rem;
+}
+.social-media-icons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  margin: 20px;
+}
+
+#icon {
+  margin: 20px 20px;
+}
+
+#icon:hover {
+  transition: 0.5s ease-out;
+  color: rgb(5, 141, 130);
+  transform: scale(1.2);
+}
+
+.contact-me {
+  font-size: 30px;
+  font-weight: 200;
+  text-align: center;
+  color: rgb(8, 85, 66);
+}
+
+.wedding-pic {
+  display: block;
+  margin: auto;
+  border: 1px solid rgb(5, 141, 130);
+  border-radius: 20px;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+}
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+footer {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+p {
+  font-size: 23px;
+}
+
+.friends-grid {
+  display: flex;
+  flex: row;
+  align-items: space-around;
+  font-size: 30px;
+}
+.sailors {
+  margin: 15px;
+}
+
+.divider {
+  border-bottom: 4px solid #0066cc;
+  margin: 35px;
+}
+
+.container {
+  width: 400px;
+  height: 200px;
+  background-color: #0066cc;
+  color: white;
+  list-style-position: inside;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 250;
+  border-radius: 15px;
+  box-shadow: 0 0 25px teal;
+}
